@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "bi-blobvehicles",
+    "name": "Blaze Industries:  Blob Vehicles",
+    "authors": [ "Blaze-whatdoyoumeanitsalreadytaken", "SouP" ],
+    "maintainers": [ "LlubNek" ],
+    "description": "Blob vehicle parts from the original blazemod updated to Blaze Industries.\nExperimental state, use at your own risk.",
+    "category": "vehicles",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -1,11 +1,11 @@
 [
   {
     "type": "MOD_INFO",
-    "ident": "blazelegacyweapons",
-    "name": "Legacy Blaze Weapons",
-    "authors": [ "Blaze-whatdoyoumeanitsalreadytaken" ],
-    "maintainers": [ "SouP" ],
-    "description": "Experimental state, use at your own risk.",
+    "ident": "bi-legacyweapons",
+    "name": "Blaze Industries:  Legacy Weapons",
+    "authors": [ "Blaze-whatdoyoumeanitsalreadytaken", "SouP" ],
+    "maintainers": [ "LlubNek" ],
+    "description": "Makeshift weapons and their corresponding vehicle parts from the original blazemod updated to Blaze Industries.\nExperimental state, use at your own risk.",
     "category": "vehicles",
     "dependencies": [ "dda" ]
   }
