@@ -3,7 +3,7 @@
     "id": "blob_gloople_cross",
     "type": "vehicle_part",
     "copy-from": "blob_gloople_horizontal",
-    "symbol": "c",
+    "variants": [ { "symbols": "c", "symbols_broken": "#" } ],
     "flags": [ "FOLDABLE", "MOUNTABLE", "INITIAL_PART" ]
   },
   {
@@ -12,8 +12,7 @@
     "name": { "str": "gel framework" },
     "item": "blob_gloople",
     "location": "structure",
-    "symbol": "h",
-    "broken_symbol": "#",
+    "variants": [ { "symbols": "h", "symbols_broken": "#" } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -28,49 +27,49 @@
     "id": "blob_gloople_horizontal_2",
     "type": "vehicle_part",
     "copy-from": "blob_gloople_horizontal",
-    "symbol": "="
+    "variants": [ { "symbols": "=", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gloople_ne",
     "type": "vehicle_part",
     "copy-from": "blob_gloople_horizontal",
-    "symbol": "u"
+    "variants": [ { "symbols": "u", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gloople_nw",
     "type": "vehicle_part",
     "copy-from": "blob_gloople_horizontal",
-    "symbol": "y"
+    "variants": [ { "symbols": "y", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gloople_se",
     "type": "vehicle_part",
     "copy-from": "blob_gloople_horizontal",
-    "symbol": "n"
+    "variants": [ { "symbols": "n", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gloople_sw",
     "type": "vehicle_part",
     "copy-from": "blob_gloople_horizontal",
-    "symbol": "b"
+    "variants": [ { "symbols": "b", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gloople_vertical",
     "type": "vehicle_part",
     "copy-from": "blob_gloople_horizontal",
-    "symbol": "j"
+    "variants": [ { "symbols": "j", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gloople_vertical_2",
     "type": "vehicle_part",
     "copy-from": "blob_gloople_horizontal",
-    "symbol": "H"
+    "variants": [ { "symbols": "H", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gray_cross",
     "type": "vehicle_part",
     "copy-from": "blob_gray_horizontal",
-    "symbol": "c",
+    "variants": [ { "symbols": "c", "symbols_broken": "#" } ],
     "flags": [ "FOLDABLE", "MOUNTABLE", "INITIAL_PART" ]
   },
   {
@@ -79,8 +78,7 @@
     "name": { "str": "gray frame" },
     "item": "blob_gray",
     "location": "structure",
-    "symbol": "h",
-    "broken_symbol": "#",
+    "variants": [ { "symbols": "h", "symbols_broken": "#" } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -95,49 +93,49 @@
     "id": "blob_gray_horizontal_2",
     "type": "vehicle_part",
     "copy-from": "blob_gray_horizontal",
-    "broken_symbol": "#"
+    "variants": [ { "symbols": "h", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gray_ne",
     "type": "vehicle_part",
     "copy-from": "blob_gray_horizontal",
-    "symbol": "u"
+    "variants": [ { "symbols": "u", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gray_nw",
     "type": "vehicle_part",
     "copy-from": "blob_gray_horizontal",
-    "symbol": "y"
+    "variants": [ { "symbols": "y", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gray_se",
     "type": "vehicle_part",
     "copy-from": "blob_gray_horizontal",
-    "symbol": "n"
+    "variants": [ { "symbols": "n", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gray_sw",
     "type": "vehicle_part",
     "copy-from": "blob_gray_horizontal",
-    "symbol": "b"
+    "variants": [ { "symbols": "b", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gray_vertical",
     "type": "vehicle_part",
     "copy-from": "blob_gray_horizontal",
-    "symbol": "j"
+    "variants": [ { "symbols": "j", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_gray_vertical_2",
     "type": "vehicle_part",
     "copy-from": "blob_gray_horizontal",
-    "symbol": "H"
+    "variants": [ { "symbols": "H", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_oozle_cross",
     "type": "vehicle_part",
     "copy-from": "blob_oozle_horizontal",
-    "symbol": "c",
+    "variants": [ { "symbols": "c", "symbols_broken": "#" } ],
     "flags": [ "FOLDABLE", "MOUNTABLE", "INITIAL_PART" ]
   },
   {
@@ -146,8 +144,7 @@
     "name": { "str": "ooze chassis" },
     "item": "blob_oozle",
     "location": "structure",
-    "symbol": "h",
-    "broken_symbol": "#",
+    "variants": [ { "symbols": "h", "symbols_broken": "#" } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -162,42 +159,42 @@
     "id": "blob_oozle_horizontal_2",
     "type": "vehicle_part",
     "copy-from": "blob_oozle_horizontal",
-    "symbol": "="
+    "variants": [ { "symbols": "=", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_oozle_ne",
     "type": "vehicle_part",
     "copy-from": "blob_oozle_horizontal",
-    "symbol": "u"
+    "variants": [ { "symbols": "u", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_oozle_nw",
     "type": "vehicle_part",
     "copy-from": "blob_oozle_horizontal",
-    "symbol": "y"
+    "variants": [ { "symbols": "y", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_oozle_se",
     "type": "vehicle_part",
     "copy-from": "blob_oozle_horizontal",
-    "symbol": "n"
+    "variants": [ { "symbols": "n", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_oozle_sw",
     "type": "vehicle_part",
     "copy-from": "blob_oozle_horizontal",
-    "symbol": "b"
+    "variants": [ { "symbols": "b", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_oozle_vertical",
     "type": "vehicle_part",
     "copy-from": "blob_oozle_horizontal",
-    "symbol": "j"
+    "variants": [ { "symbols": "j", "symbols_broken": "#" } ]
   },
   {
     "id": "blob_oozle_vertical_2",
     "type": "vehicle_part",
     "copy-from": "blob_oozle_horizontal",
-    "symbol": "H"
+    "variants": [ { "symbols": "H", "symbols_broken": "#" } ]
   }
 ]

@@ -93,7 +93,7 @@
     "volume": "5 L",
     "price": 500,
     "to_hit": -3,
-    "bashing": 9,
+    "melee_damage": { "bash": 9 },
     "material": [ "flesh" ],
     "symbol": "]",
     "color": "light_blue"
@@ -154,8 +154,16 @@
     "symbol": ";",
     "color": "light_green",
     "ammo": "blob_feed",
-    "max_charges": 250,
     "charges_per_use": 250,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "airtight": true,
+        "ammo_restriction": { "blob_feed": 250 },
+        "watertight": true
+      }
+    ],
     "qualities": [ [ "JACK", 2 ] ],
     "use_action": {
       "target": "blob_gloople_act",
@@ -180,9 +188,17 @@
     "symbol": ";",
     "color": "light_green",
     "ammo": "blob_feed",
-    "max_charges": 40,
     "charges_per_use": 20,
     "turns_per_charge": 1,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "airtight": true,
+        "ammo_restriction": { "blob_feed": 40 },
+        "watertight": true
+      }
+    ],
     "revert_to": "blob_gloople",
     "use_action": {
       "type": "place_monster",
@@ -191,8 +207,7 @@
       "hostile_msg": "A blob splits and bounces away!",
       "difficulty": 1,
       "moves": 250,
-      "place_randomly": true,
-      "skill1": "cooking"
+      "place_randomly": true
     },
     "flags": [ "NO_UNWIELD", "UNBREAKABLE_MELEE" ]
   },
@@ -252,8 +267,16 @@
     "symbol": ";",
     "color": "light_gray",
     "ammo": "blob_feed",
-    "max_charges": 250,
     "charges_per_use": 250,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "airtight": true,
+        "ammo_restriction": { "blob_feed": 250 },
+        "watertight": true
+      }
+    ],
     "qualities": [ [ "JACK", 8 ] ],
     "use_action": {
       "target": "blob_gray_act",
@@ -278,9 +301,17 @@
     "symbol": ";",
     "color": "light_green",
     "ammo": "blob_feed",
-    "max_charges": 10,
-    "charges_per_use": 20,
+    "charges_per_use": 10,
     "turns_per_charge": 1,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "airtight": true,
+        "ammo_restriction": { "blob_feed": 20 },
+        "watertight": true
+      }
+    ],
     "revert_to": "blob_gray",
     "use_action": {
       "type": "place_monster",
@@ -289,8 +320,7 @@
       "hostile_msg": "A blob splits and bounces away!",
       "difficulty": 1,
       "moves": 100,
-      "place_randomly": true,
-      "skill1": "cooking"
+      "place_randomly": true
     },
     "flags": [ "NO_UNWIELD", "UNBREAKABLE_MELEE" ]
   },
@@ -392,8 +422,16 @@
     "symbol": ";",
     "color": "green",
     "ammo": "blob_feed",
-    "max_charges": 250,
     "charges_per_use": 250,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "airtight": true,
+        "ammo_restriction": { "blob_feed": 250 },
+        "watertight": true
+      }
+    ],
     "qualities": [ [ "JACK", 4 ] ],
     "use_action": {
       "target": "blob_oozle_act",
@@ -418,8 +456,16 @@
     "symbol": ";",
     "color": "light_green",
     "ammo": "blob_feed",
-    "max_charges": 10,
     "turns_per_charge": 1,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE",
+        "rigid": true,
+        "airtight": true,
+        "ammo_restriction": { "blob_feed": 10 },
+        "watertight": true
+      }
+    ],
     "revert_to": "blob_oozle",
     "use_action": {
       "type": "place_monster",
@@ -428,8 +474,7 @@
       "hostile_msg": "A blob splits and bounces away!",
       "difficulty": 1,
       "moves": 250,
-      "place_randomly": true,
-      "skill1": "cooking"
+      "place_randomly": true
     },
     "flags": [ "NO_UNWIELD", "UNBREAKABLE_MELEE" ]
   },

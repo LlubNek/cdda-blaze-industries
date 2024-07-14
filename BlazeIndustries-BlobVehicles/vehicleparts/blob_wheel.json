@@ -5,8 +5,10 @@
     "name": { "str": "snow slider" },
     "item": "blob_frostie_wheel",
     "location": "under",
-    "symbol": "|",
-    "broken_symbol": "x",
+    "variants": [ { 
+      "symbols": "|",
+      "symbols_broken": "x"
+    } ],
     "color": "light_blue",
     "broken_color": "light_blue",
     "durability": 500,
@@ -16,7 +18,6 @@
     "description": "A living blob, existing in a super-cooled state.  It acts as a wheel.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "rolling_resistance": 1.5,
-    "wheel_type": "standard",
     "contact_area": 153,
     "flags": [ "WHEEL", "FOLDABLE", "EXTRA_DRAG", "SHARP", "TRACKED" ]
   },
@@ -26,8 +27,10 @@
     "name": { "str": "gelatinous wheel" },
     "item": "blob_gloople_wheel",
     "location": "under",
-    "symbol": "|",
-    "broken_symbol": "x",
+    "variants": [ { 
+      "symbols": "|",
+      "symbols_broken": "x"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -37,7 +40,6 @@
     "breaks_into": [ { "item": "blob_glooplegrow" }, { "item": "water", "count": [ 50, 100 ] } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "rolling_resistance": 1.75,
-    "wheel_type": "standard",
     "contact_area": 153,
     "flags": [ "WHEEL", "FOLDABLE", "TRACKED" ]
   },
@@ -47,8 +49,10 @@
     "name": { "str": "gray wheel" },
     "item": "blob_gray_wheel",
     "location": "under",
-    "symbol": "|",
-    "broken_symbol": "x",
+    "variants": [ { 
+      "symbols": "|",
+      "symbols_broken": "x"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -58,7 +62,6 @@
     "breaks_into": [ { "item": "blob_graygrow" }, { "item": "water", "count": [ 100, 200 ] } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "rolling_resistance": 1.25,
-    "wheel_type": "standard",
     "contact_area": 153,
     "flags": [ "WHEEL", "FOLDABLE", "TRACKED" ]
   },
@@ -68,8 +71,10 @@
     "name": { "str": "earthen roller" },
     "item": "blob_grinder",
     "location": "structure",
-    "symbol": "O",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "O",
+      "symbols_broken": "#"
+    } ],
     "color": "brown",
     "broken_color": "brown",
     "durability": 2500,
@@ -78,7 +83,6 @@
     "breaks_into": [ { "item": "blob_gray" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "rolling_resistance": 6,
-    "wheel_type": "rigid",
     "contact_area": 500,
     "flags": [ "WHEEL", "FOLDABLE", "PROTRUSION", "STABLE", "TRACKED" ]
   },
@@ -88,8 +92,10 @@
     "name": { "str": "oozing wheel" },
     "item": "blob_oozle_wheel",
     "location": "under",
-    "symbol": "|",
-    "broken_symbol": "x",
+    "variants": [ { 
+      "symbols": "|",
+      "symbols_broken": "x"
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -98,7 +104,6 @@
     "breaks_into": [ { "item": "blob_oozlegrow" }, { "item": "water", "count": [ 100, 200 ] } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "rolling_resistance": 1.5,
-    "wheel_type": "standard",
     "contact_area": 153,
     "flags": [ "WHEEL", "FOLDABLE", "TRACKED" ]
   }

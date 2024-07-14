@@ -8,7 +8,7 @@
     "weight": "21331 g",
     "volume": "20 L",
     "to_hit": -5,
-    "bashing": 10,
+    "melee_damage": { "bash": 10 },
     "material": [ "flesh" ],
     "symbol": ")",
     "color": "red"

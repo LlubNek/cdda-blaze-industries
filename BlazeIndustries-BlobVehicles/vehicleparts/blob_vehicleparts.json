@@ -5,11 +5,12 @@
     "name": { "str": "ice pack" },
     "item": "blob_frostie",
     "location": "center",
-    "symbol": "H",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "H",
+      "symbols_broken": "#"
+    } ],
     "color": "light_blue",
     "broken_color": "light_blue",
-    "difficulty": 3,
     "durability": 100,
     "epower": 0,
     "size": 400,
@@ -26,8 +27,10 @@
     "name": { "str": "icy windshield" },
     "item": "blob_frostie",
     "location": "center",
-    "symbol": "\"",
-    "broken_symbol": "0",
+    "variants": [ { 
+      "symbols": "\"",
+      "symbols_broken": "0"
+    } ],
     "color": "light_blue",
     "broken_color": "light_blue",
     "durability": 500,
@@ -44,8 +47,10 @@
     "name": { "str": "gelacier boat hull" },
     "item": "blob_frostie",
     "location": "under",
-    "symbol": "o",
-    "broken_symbol": "x",
+    "variants": [ { 
+      "symbols": "o",
+      "symbols_broken": "x"
+    } ],
     "color": "light_blue",
     "broken_color": "light_blue",
     "durability": 500,
@@ -62,8 +67,10 @@
     "name": { "str": "gel retriever" },
     "item": "blob_gloople",
     "location": "under",
-    "symbol": "R",
-    "broken_symbol": ";",
+    "variants": [ { 
+      "symbols": "R",
+      "symbols_broken": ";"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -82,8 +89,10 @@
     "name": { "str": "gel harness" },
     "item": "blob_gloople",
     "location": "on_seat",
-    "symbol": ",",
-    "broken_symbol": ",",
+    "variants": [ { 
+      "symbols": ",",
+      "symbols_broken": ","
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -101,8 +110,10 @@
     "name": { "str": "capsule (10L)" },
     "item": "blob_gloople_tank",
     "location": "fuel_source",
-    "symbol": "O",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "O",
+      "symbols_broken": "#"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -129,8 +140,10 @@
     "name": { "str": "gel reinforcement" },
     "item": "blob_gloople",
     "location": "armor",
-    "symbol": "X",
-    "broken_symbol": "*",
+    "variants": [ { 
+      "symbols": "X",
+      "symbols_broken": "*"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -147,8 +160,10 @@
     "name": { "str": "gel roof" },
     "item": "blob_gloople",
     "location": "roof",
-    "symbol": "#",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "#",
+      "symbols_broken": "#"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -165,8 +180,10 @@
     "name": { "str": "gel seat" },
     "item": "blob_gloople",
     "location": "center",
-    "symbol": "#",
-    "broken_symbol": "*",
+    "variants": [ { 
+      "symbols": "#",
+      "symbols_broken": "*"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -183,8 +200,10 @@
     "name": { "str": "gel receptacle" },
     "item": "blob_gloople",
     "location": "center",
-    "symbol": "H",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "H",
+      "symbols_broken": "#"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -209,8 +228,10 @@
     "name": { "str": "gel walkway" },
     "item": "blob_gloople",
     "location": "center",
-    "symbol": "=",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "=",
+      "symbols_broken": "#"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -225,7 +246,10 @@
     "id": "blob_gloopleaisle_vertical",
     "type": "vehicle_part",
     "copy-from": "blob_gloopleaisle_horizontal",
-    "symbol": "H"
+    "variants": [ { 
+      "symbols": "H",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "blob_gloopledoor",
@@ -233,8 +257,10 @@
     "name": { "str": "gel hatch" },
     "item": "blob_gloople",
     "location": "center",
-    "symbol": "+",
-    "broken_symbol": "&",
+    "variants": [ { 
+      "symbols": "+",
+      "symbols_broken": "&"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -251,8 +277,10 @@
     "name": { "str": "opaque gel hatch" },
     "item": "blob_gloople",
     "location": "center",
-    "symbol": "+",
-    "broken_symbol": "&",
+    "variants": [ { 
+      "symbols": "+",
+      "symbols_broken": "&"
+    } ],
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
@@ -269,8 +297,10 @@
     "name": { "str": "gray retriever" },
     "item": "blob_gray",
     "location": "under",
-    "symbol": "R",
-    "broken_symbol": ";",
+    "variants": [ { 
+      "symbols": "R",
+      "symbols_broken": ";"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -289,8 +319,10 @@
     "name": { "str": "gray harness" },
     "item": "blob_gray",
     "location": "on_seat",
-    "symbol": ",",
-    "broken_symbol": ",",
+    "variants": [ { 
+      "symbols": ",",
+      "symbols_broken": ","
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -308,8 +340,10 @@
     "name": { "str": "cocoon (30L)" },
     "item": "blob_gray_tank",
     "location": "fuel_source",
-    "symbol": "O",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "O",
+      "symbols_broken": "#"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -336,8 +370,10 @@
     "name": { "str": "gray reinforcement" },
     "item": "blob_gray",
     "location": "armor",
-    "symbol": "X",
-    "broken_symbol": "*",
+    "variants": [ { 
+      "symbols": "X",
+      "symbols_broken": "*"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -354,8 +390,10 @@
     "name": { "str": "gray roof" },
     "item": "blob_gray",
     "location": "roof",
-    "symbol": "#",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "#",
+      "symbols_broken": "#"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -372,8 +410,10 @@
     "name": { "str": "gray seat" },
     "item": "blob_gray",
     "location": "center",
-    "symbol": "#",
-    "broken_symbol": "*",
+    "variants": [ { 
+      "symbols": "#",
+      "symbols_broken": "*"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -390,8 +430,10 @@
     "name": { "str": "gray receptacle" },
     "item": "blob_gray",
     "location": "center",
-    "symbol": "H",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "H",
+      "symbols_broken": "#"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -416,8 +458,10 @@
     "name": { "str": "gray walkway" },
     "item": "blob_gray",
     "location": "center",
-    "symbol": "=",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "=",
+      "symbols_broken": "#"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -432,7 +476,10 @@
     "id": "blob_grayaisle_vertical",
     "type": "vehicle_part",
     "copy-from": "blob_grayaisle_horizontal",
-    "symbol": "H"
+    "variants": [ { 
+      "symbols": "H",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "blob_graydoor",
@@ -440,8 +487,10 @@
     "name": { "str": "gray hatch" },
     "item": "blob_gray",
     "location": "center",
-    "symbol": "+",
-    "broken_symbol": "&",
+    "variants": [ { 
+      "symbols": "+",
+      "symbols_broken": "&"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -458,8 +507,10 @@
     "name": { "str": "opaque gray hatch" },
     "item": "blob_gray",
     "location": "center",
-    "symbol": "+",
-    "broken_symbol": "&",
+    "variants": [ { 
+      "symbols": "+",
+      "symbols_broken": "&"
+    } ],
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
@@ -476,8 +527,10 @@
     "name": { "str": "ooze retriever" },
     "item": "blob_oozle",
     "location": "under",
-    "symbol": "R",
-    "broken_symbol": ";",
+    "variants": [ { 
+      "symbols": "R",
+      "symbols_broken": ";"
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 600,
@@ -496,8 +549,10 @@
     "name": { "str": "ooze harness" },
     "item": "blob_oozle",
     "location": "on_seat",
-    "symbol": ",",
-    "broken_symbol": ",",
+    "variants": [ { 
+      "symbols": ",",
+      "symbols_broken": ","
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -515,8 +570,10 @@
     "name": { "str": "pod (20L)" },
     "item": "blob_oozle_tank",
     "location": "fuel_source",
-    "symbol": "O",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "O",
+      "symbols_broken": "#"
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -543,8 +600,10 @@
     "name": { "str": "ooze reinforcement" },
     "item": "blob_oozle",
     "location": "armor",
-    "symbol": "X",
-    "broken_symbol": "*",
+    "variants": [ { 
+      "symbols": "X",
+      "symbols_broken": "*"
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -561,8 +620,10 @@
     "name": { "str": "ooze roof" },
     "item": "blob_oozle",
     "location": "roof",
-    "symbol": "#",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "#",
+      "symbols_broken": "#"
+    } ],
     "color": "green",
     "broken_color": "light_green",
     "durability": 500,
@@ -579,8 +640,10 @@
     "name": { "str": "ooze seat" },
     "item": "blob_oozle",
     "location": "center",
-    "symbol": "#",
-    "broken_symbol": "*",
+    "variants": [ { 
+      "symbols": "#",
+      "symbols_broken": "*"
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -597,8 +660,10 @@
     "name": { "str": "ooze receptacle" },
     "item": "blob_oozle",
     "location": "center",
-    "symbol": "H",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "H",
+      "symbols_broken": "#"
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -623,8 +688,10 @@
     "name": { "str": "ooze walkway" },
     "item": "blob_oozle",
     "location": "center",
-    "symbol": "=",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "=",
+      "symbols_broken": "#"
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -639,7 +706,10 @@
     "id": "blob_oozleaisle_vertical",
     "type": "vehicle_part",
     "copy-from": "blob_oozleaisle_horizontal",
-    "symbol": "H"
+    "variants": [ { 
+      "symbols": "H",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "blob_oozledoor",
@@ -647,8 +717,10 @@
     "name": { "str": "ooze hatch" },
     "item": "blob_oozle",
     "location": "center",
-    "symbol": "+",
-    "broken_symbol": "&",
+    "variants": [ { 
+      "symbols": "+",
+      "symbols_broken": "&"
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -665,8 +737,10 @@
     "name": { "str": "opaque ooze hatch" },
     "item": "blob_oozle",
     "location": "center",
-    "symbol": "+",
-    "broken_symbol": "&",
+    "variants": [ { 
+      "symbols": "+",
+      "symbols_broken": "&"
+    } ],
     "color": "green",
     "broken_color": "green",
     "durability": 500,
@@ -684,8 +758,10 @@
     "item": "blob_queen",
     "location": "center",
     "fuel_type": "blob_feed_fuel",
-    "symbol": "O",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "O",
+      "symbols_broken": "#"
+    } ],
     "color": "red",
     "broken_color": "red",
     "durability": 1000,

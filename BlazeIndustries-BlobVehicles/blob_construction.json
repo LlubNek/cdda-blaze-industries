@@ -2,10 +2,10 @@
   {
     "type": "construction",
     "id": "constr_harvest_blob_corpse_pit",
+    "group": "harvest_blob_corpse_pit",
     "category": "OTHER",
-    "description": "Harvest Blob Feed from Corpse Pit: Smash to Harvest",
     "difficulty": 0,
-    "time": 60,
+    "time": "60 m",
     "pre_terrain": "t_pit_corpsed",
     "post_terrain": "blob_pit",
     "tools": [
@@ -20,12 +20,17 @@
     ]
   },
   {
+    "type": "construction_group",
+    "id": "harvest_blob_corpse_pit",
+    "name": "Harvest Blob Corpse Pit"
+  },
+  {
     "type": "construction",
     "id": "constr_harvest_blob_slime",
+    "group": "harvest_blob_slime",
     "category": "OTHER",
-    "description": "Harvest Blob Feed from Slime: Smash to Harvest",
     "difficulty": 0,
-    "time": 5,
+    "time": "5 m",
     "pre_terrain": "t_slime",
     "post_terrain": "blob_pit_slime",
     "tools": [
@@ -38,6 +43,11 @@
         [ "blob_graygrow", -1 ]
       ]
     ]
+  },
+  {
+    "type": "construction_group",
+    "id": "harvest_blob_slime",
+    "name": "Harvest Blob Slime"
   },
   {
     "id": "blob_pit",

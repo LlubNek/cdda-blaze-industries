@@ -2,6 +2,7 @@
   {
     "result": "blob_gloopletread",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -13,6 +14,7 @@
   {
     "result": "blob_oozletread",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -24,6 +26,7 @@
   {
     "result": "blob_graytread",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -35,6 +38,7 @@
   {
     "result": "blob_feed_fuel",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_FUEL",
     "skill_used": "cooking",
@@ -46,6 +50,7 @@
   {
     "result": "blob_feed",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -73,6 +78,7 @@
   {
     "result": "blob_feed",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "id_suffix": "blob assisted",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
@@ -101,6 +107,7 @@
   {
     "result": "blob_bframegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",
@@ -121,6 +128,7 @@
   {
     "result": "blob_biter",
     "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
     "difficulty": 0,
     "time": "2 h 46 m 40 s",
     "components": [ [ [ "blob_bitergrow", 2 ] ] ]
@@ -128,6 +136,7 @@
   {
     "result": "blob_bitergrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -146,6 +155,7 @@
   {
     "result": "blob_clutter",
     "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
     "difficulty": 0,
     "time": "2 h 46 m 40 s",
     "components": [ [ [ "blob_cluttergrow", 2 ] ] ]
@@ -153,6 +163,7 @@
   {
     "result": "blob_cluttergrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -166,6 +177,7 @@
   {
     "result": "blob_freeziegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -184,6 +196,7 @@
   {
     "result": "blob_frostie",
     "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
     "difficulty": 0,
     "time": "1 h 23 m 20 s",
     "components": [ [ [ "blob_frostiegrow", 2 ] ] ]
@@ -191,6 +204,7 @@
   {
     "result": "blob_frostiegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -210,6 +224,7 @@
   {
     "result": "blob_frostie_wheel",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -222,6 +237,7 @@
   {
     "result": "blob_fuzzlegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -240,6 +256,7 @@
   {
     "result": "blob_gloople",
     "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
     "difficulty": 0,
     "time": "1 h 23 m 20 s",
     "components": [ [ [ "blob_glooplegrow", 2 ] ] ]
@@ -247,6 +264,7 @@
   {
     "result": "blob_gloople_tank",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -259,6 +277,7 @@
   {
     "result": "blob_gloople_tank_large",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -271,6 +290,7 @@
   {
     "result": "blob_gloople_wheel",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -283,6 +303,7 @@
   {
     "result": "blob_glowie",
     "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
     "difficulty": 0,
     "time": "1 h 23 m 20 s",
     "components": [ [ [ "blob_glowiegrow", 2 ] ] ]
@@ -290,6 +311,7 @@
   {
     "result": "blob_glowiegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -308,6 +330,7 @@
   {
     "result": "blob_gray",
     "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
     "difficulty": 0,
     "time": "5 h 33 m 20 s",
     "components": [ [ [ "blob_graygrow", 2 ] ] ]
@@ -315,6 +338,7 @@
   {
     "result": "blob_gray_tank",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -327,6 +351,7 @@
   {
     "result": "blob_gray_tank_large",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -339,6 +364,7 @@
   {
     "result": "blob_gray_wheel",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -351,6 +377,7 @@
   {
     "result": "blob_graygrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -362,6 +389,7 @@
   {
     "result": "blob_grinder",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -376,6 +404,7 @@
   {
     "result": "blob_horrorgrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -394,6 +423,7 @@
   {
     "result": "blob_inkiegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -413,6 +443,7 @@
   {
     "result": "blob_meltiegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -432,6 +463,7 @@
   {
     "result": "blob_meltie",
     "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
     "difficulty": 0,
     "time": "2 h 46 m 40 s",
     "components": [ [ [ "blob_meltiegrow", 2 ] ] ]
@@ -439,6 +471,7 @@
   {
     "result": "blob_oozle",
     "type": "uncraft",
+    "activity_level": "LIGHT_EXERCISE",
     "difficulty": 0,
     "time": "2 h 46 m 40 s",
     "components": [ [ [ "blob_oozlegrow", 2 ] ] ]
@@ -446,6 +479,7 @@
   {
     "result": "blob_oozle_tank",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -458,6 +492,7 @@
   {
     "result": "blob_oozle_tank_large",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -470,6 +505,7 @@
   {
     "result": "blob_oozle_wheel",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
@@ -482,6 +518,7 @@
   {
     "result": "blob_oozlegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -493,6 +530,7 @@
   {
     "result": "blob_queengrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -504,6 +542,7 @@
   {
     "result": "blob_razorqueengrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -522,6 +561,7 @@
   {
     "result": "blob_spouterqueen",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -534,6 +574,7 @@
   {
     "result": "blob_sharpgrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -547,6 +588,7 @@
   {
     "result": "blob_sicklegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -565,6 +607,7 @@
   {
     "result": "blob_sparkiegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -578,6 +621,7 @@
   {
     "result": "blob_stickiegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -597,6 +641,7 @@
   {
     "result": "blob_torchiegrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",
@@ -616,6 +661,7 @@
   {
     "result": "blob_voideatergrow",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "cooking",

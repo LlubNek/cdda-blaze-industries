@@ -3,10 +3,12 @@
     "type": "vehicle_part",
     "id": "blob_turret_mount",
     "name": { "str": "inert core" },
-    "symbol": "X",
     "color": "red",
-    "broken_symbol": "X",
     "broken_color": "red",
+    "variants": [ { 
+      "symbols": "X",
+      "symbols_broken": "X"
+    } ],
     "damage_modifier": 80,
     "durability": 400,
     "description": "A sleeping amorphous core, acting as a rotating, universal mount for a weapon.  If your hands are empty, you can stand next to a tentacle and 'f'ire the weapon by selecting the tile.",
@@ -24,7 +26,10 @@
   {
     "abstract": "blob_turret",
     "type": "vehicle_part",
-    "symbol": "t",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "durability": 200,
     "damage_modifier": 80,
     "location": "on_roof",
@@ -44,8 +49,10 @@
     "name": { "str": "biting blob" },
     "item": "blob_biter",
     "location": "center",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "blue",
     "broken_color": "blue",
     "durability": 400,
@@ -58,8 +65,10 @@
     "type": "vehicle_part",
     "name": { "str": "gel shooter" },
     "item": "blob_clutter",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "magenta",
     "broken_color": "magenta",
     "breaks_into": [ { "item": "blob_cluttergrow" } ]
@@ -70,8 +79,10 @@
     "type": "vehicle_part",
     "name": { "str": "frost lancer" },
     "item": "blob_freezie",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "light_blue",
     "broken_color": "light_blue",
     "breaks_into": [ { "item": "blob_freeziegrow" } ],
@@ -84,8 +95,10 @@
     "name": { "str": "snapping ooze" },
     "item": "blob_fuzzle",
     "location": "center",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "brown",
     "broken_color": "brown",
     "durability": 600,
@@ -100,8 +113,10 @@
     "name": { "str": "blobsaw" },
     "item": "blob_horror",
     "location": "center",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "blue",
     "broken_color": "blue",
     "durability": 1000,
@@ -115,8 +130,10 @@
     "type": "vehicle_part",
     "name": { "str": "fuel puffer" },
     "item": "blob_inkie",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "brown",
     "broken_color": "brown",
     "breaks_into": [ { "item": "blob_inkiegrow" } ],
@@ -128,8 +145,10 @@
     "type": "vehicle_part",
     "name": { "str": "acid puffer" },
     "item": "blob_meltie",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "light_red",
     "broken_color": "light_red",
     "breaks_into": [ { "item": "blob_meltiegrow" } ],
@@ -142,8 +161,10 @@
     "name": { "str": "gel spouter" },
     "item": "blob_spouterqueen",
     "looks_like": "clutter",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "red",
     "broken_color": "red",
     "breaks_into": [ { "item": "blob_queengrow" } ],
@@ -155,8 +176,10 @@
     "type": "vehicle_part",
     "name": { "str": "gel spiker" },
     "item": "blob_razorqueen",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "blob_razorqueengrow" } ]
@@ -167,8 +190,10 @@
     "type": "vehicle_part",
     "name": { "str": "gel lancer" },
     "item": "blob_sharp",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "light_blue",
     "broken_color": "light_blue",
     "breaks_into": [ { "item": "blob_sharpgrow" } ]
@@ -179,8 +204,10 @@
     "type": "vehicle_part",
     "name": { "str": "gel razor" },
     "item": "blob_gelrazor",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "blue",
     "broken_color": "blue",
     "breaks_into": [ { "item": "blob_sicklegrow" } ]
@@ -191,8 +218,10 @@
     "type": "vehicle_part",
     "name": { "str": "shock bulb" },
     "item": "blob_sparkie",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "blob_sparkiegrow" } ]
@@ -203,8 +232,10 @@
     "type": "vehicle_part",
     "name": { "str": "gel puffer" },
     "item": "blob_stickie",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "yellow",
     "broken_color": "yellow",
     "breaks_into": [ { "item": "blob_stickiegrow" } ],
@@ -216,8 +247,10 @@
     "type": "vehicle_part",
     "name": { "str": "fire puffer" },
     "item": "blob_torchie",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "light_red",
     "broken_color": "light_red",
     "breaks_into": [ { "item": "blob_torchiegrow" } ],
@@ -229,8 +262,10 @@
     "type": "vehicle_part",
     "name": { "str": "spark blight" },
     "item": "blob_voideater",
-    "symbol": "t",
-    "broken_symbol": "#",
+    "variants": [ { 
+      "symbols": "t",
+      "symbols_broken": "#"
+    } ],
     "color": "cyan",
     "broken_color": "cyan",
     "breaks_into": [ { "item": "blob_voideatergrow" } ]
