@@ -6,7 +6,7 @@
     "name": { "str": "gelatinous capsule" },
     "description": "While the blob is very eager to be fed, it's not as enthusiastic about giving up liquids.  A few alterations are necessary.",
     "weight": "1 kg",
-    "volume": "10.1 L",
+    "volume": "11 L",
     "price": "100 USD",
     "to_hit": -2,
     "material": [ "flesh" ],
@@ -31,7 +31,7 @@
     "name": { "str": "gelatinous tank" },
     "copy-from": "blob_gloople_tank",
     "weight": "6 kg",
-    "volume": "60.1 L",
+    "volume": "61 L",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -51,7 +51,7 @@
     "name": { "str": "gray cocoon" },
     "description": "While the blob is very eager to be fed, it's not as enthusiastic about giving up liquids.  A few alterations are necessary.",
     "weight": "3 kg",
-    "volume": "30.1 L",
+    "volume": "31 L",
     "price": "100 USD",
     "to_hit": -2,
     "material": [ "flesh" ],
@@ -76,7 +76,7 @@
     "name": { "str": "gray tank" },
     "copy-from": "blob_gray_tank",
     "weight": "10 kg",
-    "volume": "100.1 L",
+    "volume": "101 L",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -96,7 +96,7 @@
     "name": { "str": "oozing pod" },
     "description": "While the blob is very eager to be fed, it's not as enthusiastic about giving up liquids.  A few alterations are necessary.",
     "weight": "2 kg",
-    "volume": "20.1 L",
+    "volume": "21 L",
     "price": "100 USD",
     "to_hit": -2,
     "material": [ "flesh" ],
@@ -121,7 +121,7 @@
     "name": { "str": "oozing tank" },
     "copy-from": "blob_oozle_tank",
     "weight": "8 kg",
-    "volume": "80.1 L",
+    "volume": "81 L",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
