@@ -6,8 +6,10 @@
     "item": "vortex_generator",
     "location": "engine_block",
     "fuel_type": "vortex_power",
-    "symbol": "8",
-    "broken_symbol": "x",
+    "variants": [ {
+      "symbols": "8",
+      "symbols_broken": "x"
+    }  ],
     "color": "magenta",
     "broken_color": "magenta",
     "durability": 400,
@@ -39,8 +41,10 @@
     "item": "vortex_engine",
     "location": "engine_block",
     "fuel_type": "vortex_power",
-    "symbol": "8",
-    "broken_symbol": "x",
+    "variants": [ {
+      "symbols": "8",
+      "symbols_broken": "x"
+    }  ],
     "color": "magenta",
     "broken_color": "magenta",
     "durability": 400,

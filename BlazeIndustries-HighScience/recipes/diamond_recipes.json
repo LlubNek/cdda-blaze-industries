@@ -2,6 +2,7 @@
   {
     "result": "diamond_plate",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
@@ -19,6 +20,7 @@
   {
     "result": "diamond_frame",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
@@ -36,6 +38,7 @@
   {
     "result": "diamond_nova",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
@@ -58,6 +61,7 @@
   {
     "result": "diamond_lance",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_PARTS",
     "skill_used": "fabrication",
@@ -81,6 +85,7 @@
   {
     "result": "diamond_coal",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
     "skill_used": "fabrication",
@@ -93,6 +98,7 @@
   {
     "result": "diamond_matrix",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "fabrication",

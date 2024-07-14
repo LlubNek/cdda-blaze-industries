@@ -5,8 +5,10 @@
     "name": { "str": "diamond barrier" },
     "item": "diamond_plate",
     "location": "center",
-    "symbol": "h",
-    "broken_symbol": "#",
+    "variants": [ {
+      "symbols": "h",
+      "symbols_broken": "#"
+    } ],
     "color": "white",
     "broken_color": "white",
     "description": "A transparent, solid sheet of self-sustaining crystals.",
@@ -27,31 +29,46 @@
     "id": "dboard_ne",
     "type": "vehicle_part",
     "copy-from": "dboard_horizontal",
-    "symbol": "u"
+    "variants": [ {
+      "symbols": "u",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dboard_nw",
     "type": "vehicle_part",
     "copy-from": "dboard_horizontal",
-    "symbol": "y"
+    "variants": [ {
+      "symbols": "y",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dboard_se",
     "type": "vehicle_part",
     "copy-from": "dboard_horizontal",
-    "symbol": "n"
+    "variants": [ {
+      "symbols": "n",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dboard_sw",
     "type": "vehicle_part",
     "copy-from": "dboard_horizontal",
-    "symbol": "b"
+    "variants": [ {
+      "symbols": "b",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dboard_vertical",
     "type": "vehicle_part",
     "copy-from": "dboard_horizontal",
-    "symbol": "j"
+    "variants": [ {
+      "symbols": "j",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dframe_cover",
@@ -59,8 +76,10 @@
     "name": { "str": "diamond frame" },
     "item": "diamond_frame",
     "location": "structure",
-    "symbol": "^",
-    "broken_symbol": "#",
+    "variants": [ {
+      "symbols": "^",
+      "symbols_broken": "#"
+    } ],
     "color": "white",
     "broken_color": "white",
     "description": "A framework of super-strong crystal.  Other vehicle components can be mounted on it, and it can be attached to other frames to increase the vehicle's size.",
@@ -81,56 +100,83 @@
     "id": "dframe_cross",
     "type": "vehicle_part",
     "copy-from": "dframe_cover",
-    "symbol": "c",
+    "variants": [ {
+      "symbols": "c",
+      "symbols_broken": "#"
+    } ],
     "flags": [ "MOUNTABLE", "INITIAL_PART" ]
   },
   {
     "id": "dframe_horizontal",
     "type": "vehicle_part",
     "copy-from": "dframe_cover",
-    "symbol": "h"
+    "variants": [ {
+      "symbols": "h",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dframe_horizontal_2",
     "type": "vehicle_part",
     "copy-from": "dframe_cover",
-    "symbol": "="
+    "variants": [ {
+      "symbols": "=",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dframe_ne",
     "type": "vehicle_part",
     "copy-from": "dframe_cover",
-    "symbol": "u"
+    "variants": [ {
+      "symbols": "u",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dframe_nw",
     "type": "vehicle_part",
     "copy-from": "dframe_cover",
-    "symbol": "y"
+    "variants": [ {
+      "symbols": "y",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dframe_se",
     "type": "vehicle_part",
     "copy-from": "dframe_cover",
-    "symbol": "n"
+    "variants": [ {
+      "symbols": "n",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dframe_sw",
     "type": "vehicle_part",
     "copy-from": "dframe_cover",
-    "symbol": "b"
+    "variants": [ {
+      "symbols": "b",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dframe_vertical",
     "type": "vehicle_part",
     "copy-from": "dframe_cover",
-    "symbol": "j"
+    "variants": [ {
+      "symbols": "j",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "dframe_vertical_2",
     "type": "vehicle_part",
     "copy-from": "dframe_cover",
-    "symbol": "H"
+    "variants": [ {
+      "symbols": "H",
+      "symbols_broken": "#"
+    } ]
   },
   {
     "id": "plating_diamond",
@@ -138,8 +184,10 @@
     "name": { "str": "diamond plating" },
     "item": "diamond_plate",
     "location": "armor",
-    "symbol": ")",
-    "broken_symbol": ")",
+    "variants": [ {
+      "symbols": ")",
+      "symbols_broken": ")"
+    } ],
     "color": "white",
     "broken_color": "white",
     "description": "Transparent crystal armor plate.  Will partially protect other components on the same frame from damage.",

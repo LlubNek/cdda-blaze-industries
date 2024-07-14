@@ -6,8 +6,10 @@
     "//": "Keep away from Svarog detectors!",
     "item": "stablilized_portal",
     "location": "center",
-    "symbol": "O",
-    "broken_symbol": "O",
+    "variants": [ {
+      "symbols": "O",
+      "symbols_broken": "O"
+    } ],
     "color": "magenta",
     "broken_color": "magenta",
     "durability": 400,

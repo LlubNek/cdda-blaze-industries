@@ -9,7 +9,7 @@
     "volume": "50 L",
     "price": 1500000,
     "to_hit": -4,
-    "bashing": 2,
+    "melee_damage": { "bash": 2 },
     "material": [ "steel", "plastic" ],
     "symbol": "]",
     "color": "cyan"
