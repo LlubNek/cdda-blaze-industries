@@ -309,6 +309,7 @@
     "symbol": "&",
     "color": "light_red",
     "ammo": "gasoline",
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "gasoline": 450 }, "watertight": true, "rigid": true } ],
     "skill": "launcher",
     "range": 12,
     "ranged_damage": { "damage_type": "stab", "amount": 5 },
