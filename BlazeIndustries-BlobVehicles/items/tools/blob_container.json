@@ -6,7 +6,7 @@
     "name": { "str": "gelatinous capsule" },
     "description": "While the blob is very eager to be fed, it's not as enthusiastic about giving up liquids.  A few alterations are necessary.",
     "weight": "1 kg",
-    "volume": "10 L",
+    "volume": "10.1 L",
     "price": "100 USD",
     "to_hit": -2,
     "material": [ "flesh" ],
@@ -31,7 +31,7 @@
     "name": { "str": "gelatinous tank" },
     "copy-from": "blob_gloople_tank",
     "weight": "6 kg",
-    "volume": "60 L",
+    "volume": "60.1 L",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -51,7 +51,7 @@
     "name": { "str": "gray cocoon" },
     "description": "While the blob is very eager to be fed, it's not as enthusiastic about giving up liquids.  A few alterations are necessary.",
     "weight": "3 kg",
-    "volume": "30 L",
+    "volume": "30.1 L",
     "price": "100 USD",
     "to_hit": -2,
     "material": [ "flesh" ],
@@ -63,8 +63,8 @@
         "watertight": true,
         "rigid": true,
         "seals": true,
-        "max_contains_volume": "10 L",
-        "max_contains_weight": "20 kg"
+        "max_contains_volume": "30 L",
+        "max_contains_weight": "60 kg"
       }
     ],
     "qualities": [ [ "CONTAIN", 1 ] ]
@@ -76,7 +76,7 @@
     "name": { "str": "gray tank" },
     "copy-from": "blob_gray_tank",
     "weight": "10 kg",
-    "volume": "100 L",
+    "volume": "100.1 L",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
@@ -96,7 +96,7 @@
     "name": { "str": "oozing pod" },
     "description": "While the blob is very eager to be fed, it's not as enthusiastic about giving up liquids.  A few alterations are necessary.",
     "weight": "2 kg",
-    "volume": "20 L",
+    "volume": "20.1 L",
     "price": "100 USD",
     "to_hit": -2,
     "material": [ "flesh" ],
@@ -121,7 +121,7 @@
     "name": { "str": "oozing tank" },
     "copy-from": "blob_oozle_tank",
     "weight": "8 kg",
-    "volume": "80 L",
+    "volume": "80.1 L",
     "pocket_data": [
       {
         "pocket_type": "CONTAINER",
