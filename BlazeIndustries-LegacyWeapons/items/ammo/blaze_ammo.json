@@ -10,7 +10,7 @@
     "ammo_type": "h_projectile",
     "range": 10,
     "effects": [ "NEVER_MISFIRES", "COOKOFF" ],
-    "flags": [ "" ]
+    "flags": [ ]
   },
   {
     "id": "canbomb",
@@ -132,7 +132,7 @@
     "ammo_type": "hbolt",
     "damage": { "damage_type": "stab", "amount": 14 },
     "effects": [ "NEVER_MISFIRES", "COOKOFF" ],
-    "flags": [ "" ]
+    "flags": [ ]
   },
   {
     "id": "hbolt_boom",
