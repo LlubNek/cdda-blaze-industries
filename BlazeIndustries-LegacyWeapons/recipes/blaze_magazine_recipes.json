@@ -2,6 +2,7 @@
   {
     "result": "bb_hopper",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -16,6 +17,7 @@
   {
     "result": "bolt_hopper",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -30,6 +32,7 @@
   {
     "result": "cannister_rack",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -44,6 +47,7 @@
   {
     "result": "pebble_hopper",
     "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",

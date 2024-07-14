@@ -10,10 +10,8 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "BB",
-    "capacity": 250,
-    "reliability": 6,
-    "reload_time": 15
+    "reload_time": 15,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "BB": 250 } } ]
   },
   {
     "id": "bolt_hopper",
@@ -26,10 +24,8 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "bolt",
-    "capacity": 60,
-    "reliability": 6,
-    "reload_time": 150
+    "reload_time": 150,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "bolt": 60 } } ]
   },
   {
     "id": "cannister_rack",
@@ -42,10 +38,8 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "h_projectile",
-    "capacity": 8,
-    "reliability": 6,
-    "reload_time": 150
+    "reload_time": 150,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "h_projectile": 8 } } ]
   },
   {
     "id": "pebble_hopper",
@@ -58,9 +52,7 @@
     "material": "steel",
     "symbol": "#",
     "color": "light_gray",
-    "ammo_type": "pebble",
-    "capacity": 250,
-    "reliability": 6,
-    "reload_time": 15
+    "reload_time": 15,
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "pebble": 250 } } ]
   }
 ]

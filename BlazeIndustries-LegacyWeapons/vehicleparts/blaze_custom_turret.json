@@ -16,7 +16,10 @@
     "type": "vehicle_part",
     "name": { "str": "mounted lacerator" },
     "item": "cutter",
-    "broken_symbol": "x",
+	"variants": [ {
+      "symbols": "x",
+      "symbols_broken": "x"
+	} ],
     "color": "dark_gray",
     "broken_color": "dark_gray",
     "power": -1750,
@@ -74,7 +77,10 @@
     "type": "vehicle_part",
     "name": { "str": "mounted ripper" },
     "item": "ripper",
-    "broken_symbol": "x",
+	"variants": [ {
+      "symbols": "x",
+      "symbols_broken": "x"
+	} ],
     "color": "dark_gray",
     "broken_color": "dark_gray",
     "power": -8750,
