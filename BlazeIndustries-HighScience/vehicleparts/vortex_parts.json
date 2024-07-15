@@ -6,6 +6,7 @@
     "item": "vortex_generator",
     "location": "engine_block",
     "fuel_type": "vortex_power",
+    "fuel_options": [ "vortex_power" ],
     "variants": [ {
       "symbols": "8",
       "symbols_broken": "x"
@@ -41,6 +42,7 @@
     "item": "vortex_engine",
     "location": "engine_block",
     "fuel_type": "vortex_power",
+    "fuel_options": [ "vortex_power" ],
     "variants": [ {
       "symbols": "8",
       "symbols_broken": "x"
