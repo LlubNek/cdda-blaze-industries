@@ -757,7 +757,8 @@
     "name": { "str": "amorphous core" },
     "item": "blob_queen",
     "location": "center",
-    "fuel_type": "blob_feed_fuel",
+    "fuel_type": "blob_feed",
+    "fuel_options": [ "blob_feed_fuel" ],
     "variants": [ { 
       "symbols": "O",
       "symbols_broken": "#"
