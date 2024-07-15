@@ -126,7 +126,7 @@
       [ [ "plastic_chunk", 8 ] ],
       [ [ "amplifier", 8 ] ],
       [ [ "power_supply", 8 ] ],
-      [ [ "cerberus_laser", 1 ], [ "bio_blaster", 1 ] ]
+      [ [ "broken_robofac_laserturret_mk1", 1 ], [ "bio_laser", 1 ] ]
     ]
   },
   {
