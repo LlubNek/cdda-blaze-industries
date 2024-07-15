@@ -5,7 +5,6 @@
     "name": { "str": "vortex generator" },
     "item": "vortex_generator",
     "location": "engine_block",
-    "fuel_type": "vortex_power",
     "variants": [ {
       "symbols": "8",
       "symbols_broken": "x"
@@ -40,8 +39,6 @@
     "name": { "str": "vortex engine" },
     "item": "vortex_engine",
     "location": "engine_block",
-    "fuel_type": "vortex_power",
-    "fuel_options": [ "vortex_power" ],
     "variants": [ {
       "symbols": "8",
       "symbols_broken": "x"
@@ -68,6 +65,6 @@
       "removal": { "skills": [ [ "mechanics", 4 ] ], "time": "30 m", "using": [ [ "vehicle_weld_removal", 1 ] ] },
       "repair": { "skills": [ [ "mechanics", 7 ] ], "time": "60 m", "using": [ [ "welding_standard", 5 ] ] }
     },
-    "flags": [ "ENGINE", "E_STARTS_INSTANTLY", "E_HIGHER_SKILL", "E_ALTERNATOR" ]
+    "flags": [ "ENGINE", "E_STARTS_INSTANTLY", "E_HIGHER_SKILL", "E_ALTERNATOR", "PERPETUAL" ]
   }
 ]
