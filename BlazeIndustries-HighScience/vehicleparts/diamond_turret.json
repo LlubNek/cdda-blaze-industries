@@ -7,7 +7,6 @@
     "item": "diamond_lance",
     "color": "white",
     "broken_color": "white",
-    "size": 10,
     "folded_volume": 22,
     "breaks_into": [ { "item": "diamond_lance", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
@@ -20,7 +19,6 @@
     "item": "diamond_nova",
     "color": "white",
     "broken_color": "white",
-    "size": 10,
     "folded_volume": 22,
     "breaks_into": [ { "item": "diamond_nova", "prob": 50 } ],
     "requirements": { "install": { "skills": [ [ "mechanics", 4 ] ] }, "removal": { "skills": [ [ "mechanics", 2 ] ] } }
