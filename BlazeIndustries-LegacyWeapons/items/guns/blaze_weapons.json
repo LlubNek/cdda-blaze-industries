@@ -23,7 +23,7 @@
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "cannister_rack" ] } ],
-    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON_FOULING" ]
   },
   {
     "id": "cutter",
@@ -49,7 +49,7 @@
     "clip_size": 5,
     "reload": 1250,
     "valid_mod_locations": [  ],
-    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON-FOULING" ]
+    "flags": [ "MOUNTED_GUN", "NEVER_JAMS", "NON_FOULING" ]
   },
   {
     "id": "gattler",
