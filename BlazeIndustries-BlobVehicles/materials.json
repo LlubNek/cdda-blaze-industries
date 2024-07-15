@@ -1,0 +1,22 @@
+[
+  {
+    "type": "material",
+    "id": "blob_feed_fuel",
+    "name": "Liquified blob feed",
+    "density": 0.75,
+    "copy-from": "hydrocarbons",
+    "fuel_data": {
+      "energy": "34200 kJ"
+    }
+  },
+  {
+    "type": "material",
+    "id": "blob_feed",
+    "name": "Blob feed",
+    "density": 0.75,
+    "copy-from": "flesh",
+    "fuel_data": {
+      "energy": "34200 kJ"
+    }
+  }
+]
