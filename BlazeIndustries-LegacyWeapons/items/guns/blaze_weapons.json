@@ -149,7 +149,7 @@
     "energy_drain": "499 kJ",
     "valid_mod_locations": [  ],
     "ammo_effects": [ "EXPLOSIVE", "LASER", "WIDE" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "MOUNTED_GUN", "NON_FOULING" ]
   },
   {
     "id": "ripper",
@@ -177,7 +177,7 @@
     "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
-    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON_FOULING" ]
   },
   {
     "id": "scorpion",
@@ -204,7 +204,7 @@
     "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
-    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON_FOULING" ]
   },
   {
     "id": "slauncher",
@@ -232,7 +232,7 @@
     "reload": 750,
     "valid_mod_locations": [  ],
     "ammo_effects": [ "WIDE" ],
-    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON-FOULING" ]
+    "flags": [ "NEVER_JAMS", "MOUNTED_GUN", "NON_FOULING" ]
   },
   {
     "id": "teslagun",
@@ -255,6 +255,6 @@
     "energy_drain": "249 kJ",
     "valid_mod_locations": [  ],
     "ammo_effects": [ "BOUNCE", "LIGHTNING" ],
-    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON-FOULING", "MOUNTED_GUN" ]
+    "flags": [ "NEVER_JAMS", "NO_UNLOAD", "NON_FOULING", "MOUNTED_GUN" ]
   }
 ]
