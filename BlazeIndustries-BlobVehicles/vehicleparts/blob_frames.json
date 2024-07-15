@@ -4,7 +4,7 @@
     "type": "vehicle_part",
     "copy-from": "blob_gloople_horizontal",
     "variants": [ { "symbols": "c", "symbols_broken": "#" } ],
-    "flags": [ "FOLDABLE", "MOUNTABLE", "INITIAL_PART" ]
+    "flags": [ "MOUNTABLE", "INITIAL_PART" ]
   },
   {
     "id": "blob_gloople_horizontal",
@@ -21,7 +21,7 @@
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "description": "A living blob, shaped to provide attachment points for other blobs.  Other vehicle components and blobs can be mounted on it.  If all the frames and components of a vehicle are foldable or made from blobs, the vehicle can be folding into a small package and picked up as a normal item.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "FOLDABLE", "MOUNTABLE" ]
+    "flags": [ "MOUNTABLE" ]
   },
   {
     "id": "blob_gloople_horizontal_2",
@@ -70,7 +70,7 @@
     "type": "vehicle_part",
     "copy-from": "blob_gray_horizontal",
     "variants": [ { "symbols": "c", "symbols_broken": "#" } ],
-    "flags": [ "FOLDABLE", "MOUNTABLE", "INITIAL_PART" ]
+    "flags": [ "MOUNTABLE", "INITIAL_PART" ]
   },
   {
     "id": "blob_gray_horizontal",
@@ -87,7 +87,7 @@
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "description": "A living blob, shaped to provide attachment points for other blobs.  Other vehicle components and blobs can be mounted on it.  If all the frames and components of a vehicle are foldable or made from blobs, the vehicle can be folding into a small package and picked up as a normal item.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "FOLDABLE", "MOUNTABLE" ]
+    "flags": [ "MOUNTABLE" ]
   },
   {
     "id": "blob_gray_horizontal_2",
@@ -136,7 +136,7 @@
     "type": "vehicle_part",
     "copy-from": "blob_oozle_horizontal",
     "variants": [ { "symbols": "c", "symbols_broken": "#" } ],
-    "flags": [ "FOLDABLE", "MOUNTABLE", "INITIAL_PART" ]
+    "flags": [ "MOUNTABLE", "INITIAL_PART" ]
   },
   {
     "id": "blob_oozle_horizontal",
@@ -153,7 +153,7 @@
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "description": "A living blob, shaped to provide attachment points for other blobs.  Other vehicle components and blobs can be mounted on it.  If all the frames and components of a vehicle are foldable or made from blobs, the vehicle can be folding into a small package and picked up as a normal item.",
-    "flags": [ "FOLDABLE", "MOUNTABLE" ]
+    "flags": [ "MOUNTABLE" ]
   },
   {
     "id": "blob_oozle_horizontal_2",

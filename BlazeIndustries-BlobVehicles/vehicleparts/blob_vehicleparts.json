@@ -19,7 +19,7 @@
     "breaks_into": [ { "item": "blob_frostiegrow" } ],
     "description": "A living blob, existing in a super-cooled state.  It will keep items stored in it cold, reducing the speed at which food and drink rots.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "CARGO", "OBSTACLE", "FRIDGE", "COVERED", "FOLDABLE" ]
+    "flags": [ "CARGO", "OBSTACLE", "FRIDGE", "COVERED" ]
   },
   {
     "id": "blob_frostie_windshield",
@@ -39,7 +39,7 @@
     "breaks_into": [ { "item": "blob_frostiegrow" } ],
     "description": "A living blob, existing in a super-cooled state.  It is transparent, and can be used to see out of the vehicle.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "OVER", "WINDSHIELD", "OBSTACLE", "WINDOW", "FOLDABLE" ]
+    "flags": [ "OVER", "WINDSHIELD", "OBSTACLE", "WINDOW" ]
   },
   {
     "id": "blob_frostie_boat_hull",
@@ -59,7 +59,7 @@
     "breaks_into": [ { "item": "blob_frostiegrow" } ],
     "description": "A living blob, existing in a super-cooled state.  It acts as a boat hull.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "FLOATS", "FOLDABLE", "EXTRA_DRAG", "SHARP", "TRACKED" ]
+    "flags": [ "FLOATS", "EXTRA_DRAG", "SHARP", "TRACKED" ]
   },
   {
     "id": "blob_gloople_amalgam",
@@ -81,7 +81,7 @@
     "description": "A living blob, formed to act as a scoop.  Use the vehicle controls to turn it on or off.  When turned on, it will scoop up any loose items that it travels over, putting them into the vehicle's storage.",
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "SCOOP", "CARGO", "FOLDABLE" ]
+    "flags": [ "SCOOP", "CARGO" ]
   },
   {
     "id": "blob_gloople_belt",
@@ -102,7 +102,7 @@
     "description": "A living blob, reformed as a belt and attached to a seat.",
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "SEATBELT", "FOLDABLE" ]
+    "flags": [ "SEATBELT" ]
   },
   {
     "id": "blob_gloople_tank",
@@ -123,7 +123,7 @@
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "description": "A living blob, formed into a storage space for holding liquids.  If filled with the appropriate fuel for the vehicle's engine, the engine will automatically draw fuel from the tank when the engine is on.  If filled with water, you can access the water from a water faucet, if one is installed in the vehicle.  You can also use a rubber hose to siphon liquids out of a tank.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "FOLDABLE", "FUEL_TANK" ]
+    "flags": [ "FUEL_TANK" ]
   },
   {
     "id": "blob_gloople_tank_large",
@@ -152,7 +152,7 @@
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "description": "A living blob, acting as armor plate.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "ARMOR", "FOLDABLE" ]
+    "flags": [ "ARMOR" ]
   },
   {
     "id": "blob_gloople_roof",
@@ -172,7 +172,7 @@
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "description": "A living blob, placed as roof.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "ROOF", "FOLDABLE" ]
+    "flags": [ "ROOF" ]
   },
   {
     "id": "blob_gloople_seat",
@@ -213,7 +213,7 @@
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "description": "A living blob, shaped into a cargo space.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "CARGO", "COVERED", "FOLDABLE" ]
+    "flags": [ "CARGO", "COVERED" ]
   },
   {
     "id": "blob_gloople_trunk_u",
@@ -240,7 +240,7 @@
     "description": "A living blob, formed into a walkway.",
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "AISLE", "BOARDABLE", "FOLDABLE" ]
+    "flags": [ "AISLE", "BOARDABLE" ]
   },
   {
     "id": "blob_gloopleaisle_vertical",
@@ -269,7 +269,7 @@
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "description": "A living blob, acting as a door.  Has a transparent patch so you can see out of it, even when closed.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW", "FOLDABLE" ]
+    "flags": [ "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW" ]
   },
   {
     "id": "blob_gloopledoor_opaque",
@@ -289,7 +289,7 @@
     "breaks_into": [ { "item": "blob_glooplegrow" } ],
     "description": "A living blob, acting as a door.  Entirely opaque so you can't see through it when closed.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE", "FOLDABLE" ]
+    "flags": [ "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE" ]
   },
   {
     "id": "blob_gray_amalgam",
@@ -311,7 +311,7 @@
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "description": "A living blob, formed to act as a scoop.  Use the vehicle controls to turn it on or off.  When turned on, it will scoop up any loose items that it travels over, putting them into the vehicle's storage.",
-    "flags": [ "SCOOP", "CARGO", "FOLDABLE" ]
+    "flags": [ "SCOOP", "CARGO" ]
   },
   {
     "id": "blob_gray_belt",
@@ -332,7 +332,7 @@
     "description": "A living blob, reformed as a belt and attached to a seat.",
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "SEATBELT", "FOLDABLE" ]
+    "flags": [ "SEATBELT" ]
   },
   {
     "id": "blob_gray_tank",
@@ -353,7 +353,7 @@
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "description": "A living blob, formed into a storage space for holding liquids.  If filled with the appropriate fuel for the vehicle's engine, the engine will automatically draw fuel from the tank when the engine is on.  If filled with water, you can access the water from a water faucet, if one is installed in the vehicle.  You can also use a rubber hose to siphon liquids out of a tank.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "FOLDABLE", "FUEL_TANK" ]
+    "flags": [ "FUEL_TANK" ]
   },
   {
     "id": "blob_gray_tank_large",
@@ -382,7 +382,7 @@
     "description": "A living blob, acting as armor plate.",
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "ARMOR", "FOLDABLE" ]
+    "flags": [ "ARMOR" ]
   },
   {
     "id": "blob_gray_roof",
@@ -402,7 +402,7 @@
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "description": "A living blob, placed as roof.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "ROOF", "FOLDABLE" ]
+    "flags": [ "ROOF" ]
   },
   {
     "id": "blob_gray_seat",
@@ -443,7 +443,7 @@
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "description": "A living blob, shaped into a cargo space.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "CARGO", "COVERED", "FOLDABLE" ]
+    "flags": [ "CARGO", "COVERED" ]
   },
   {
     "id": "blob_gray_trunk_u",
@@ -470,7 +470,7 @@
     "description": "A living blob, formed into a walkway.",
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "AISLE", "BOARDABLE", "FOLDABLE" ]
+    "flags": [ "AISLE", "BOARDABLE" ]
   },
   {
     "id": "blob_grayaisle_vertical",
@@ -499,7 +499,7 @@
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "description": "A living blob, acting as a door.  Has a transparent patch so you can see out of it, even when closed.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW", "FOLDABLE" ]
+    "flags": [ "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW" ]
   },
   {
     "id": "blob_graydoor_opaque",
@@ -519,7 +519,7 @@
     "breaks_into": [ { "item": "blob_graygrow" } ],
     "description": "A living blob, acting as a door.  Entirely opaque so you can't see through it when closed.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE", "FOLDABLE" ]
+    "flags": [ "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE" ]
   },
   {
     "id": "blob_oozle_amalgam",
@@ -541,7 +541,7 @@
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "description": "A living blob, formed to act as a scoop.  Use the vehicle controls to turn it on or off.  When turned on, it will scoop up any loose items that it travels over, putting them into the vehicle's storage.",
-    "flags": [ "SCOOP", "CARGO", "FOLDABLE" ]
+    "flags": [ "SCOOP", "CARGO" ]
   },
   {
     "id": "blob_oozle_belt",
@@ -562,7 +562,7 @@
     "description": "A living blob, reformed as a belt and attached to a seat.",
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "SEATBELT", "FOLDABLE" ]
+    "flags": [ "SEATBELT" ]
   },
   {
     "id": "blob_oozle_tank",
@@ -583,7 +583,7 @@
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
     "description": "A living blob, formed into a storage space for holding liquids.  If filled with the appropriate fuel for the vehicle's engine, the engine will automatically draw fuel from the tank when the engine is on.  If filled with water, you can access the water from a water faucet, if one is installed in the vehicle.  You can also use a rubber hose to siphon liquids out of a tank.",
-    "flags": [ "FOLDABLE", "FUEL_TANK" ]
+    "flags": [ "FUEL_TANK" ]
   },
   {
     "id": "blob_oozle_tank_large",
@@ -612,7 +612,7 @@
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "description": "A living blob, acting as armor plate.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "ARMOR", "FOLDABLE" ]
+    "flags": [ "ARMOR" ]
   },
   {
     "id": "blob_oozle_roof",
@@ -632,7 +632,7 @@
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "description": "A living blob, placed as roof.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "ROOF", "FOLDABLE" ]
+    "flags": [ "ROOF" ]
   },
   {
     "id": "blob_oozle_seat",
@@ -673,7 +673,7 @@
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "description": "A living blob, shaped into a cargo space.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "CARGO", "COVERED", "FOLDABLE" ]
+    "flags": [ "CARGO", "COVERED" ]
   },
   {
     "id": "blob_oozle_trunk_u",
@@ -700,7 +700,7 @@
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "description": "A living blob, formed into a walkway.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "AISLE", "BOARDABLE", "FOLDABLE" ]
+    "flags": [ "AISLE", "BOARDABLE" ]
   },
   {
     "id": "blob_oozleaisle_vertical",
@@ -729,7 +729,7 @@
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "description": "A living blob, acting as a door.  Has a transparent patch so you can see out of it, even when closed.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW", "FOLDABLE" ]
+    "flags": [ "OBSTACLE", "OPENABLE", "BOARDABLE", "WINDOW" ]
   },
   {
     "id": "blob_oozledoor_opaque",
@@ -749,7 +749,7 @@
     "breaks_into": [ { "item": "blob_oozlegrow" } ],
     "description": "A living blob, acting as a door.  Entirely opaque so you can't see through it when closed.",
     "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE", "FOLDABLE" ]
+    "flags": [ "OBSTACLE", "OPAQUE", "OPENABLE", "BOARDABLE" ]
   },
   {
     "id": "blob_queen",
@@ -779,7 +779,6 @@
     "flags": [
       "BOARDABLE",
       "BELTABLE",
-      "FOLDABLE",
       "ENGINE",
       "CONTROLS",
       "CTRL_ELECTRONIC",
